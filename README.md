@@ -4,12 +4,12 @@
 
 ## In Action
 
-|When seat is not occuiped and heater is OFF|When seat is not occupied and heater is ON|
-|:-----------------------------------------:|:----------------------------------------:|
+|When seat is not occuiped and heater is OFF(0 0)|When seat is not occupied and heater is ON(0 1)|
+|:----------------------------------------------:|:---------------------------------------------:|
 |![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/OFF(0%200).png)|![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/OFF(0%201).png)|
 
-|When seat is occuiped and heater is OFF|When seat is occupied and heater is ON|
-|:-------------------------------------:|:------------------------------------:|
+|When seat is occuiped and heater is OFF(1 0)|When seat is occupied and heater is ON(1 1)|
+|:------------------------------------------:|:-----------------------------------------:|
 |![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/OFF(1%200).png)|![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/ON(1%201).png)|
 
 #### CI and Code Quality
