@@ -4,8 +4,8 @@
 
 ## In Action
 
-|ON|OFF|
-|:--:|:--:|
+|When seat is occuiped and heater is ON|When seat is not occupied and heater is ON|
+|:------------------------------------:|:----------------------------------------:|
 |![ON](https://github.com/murali980/Activity_1/blob/master/simulation/ON.png)|![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/OFF.png)|
 
 #### CI and Code Quality
