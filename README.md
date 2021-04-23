@@ -6,7 +6,8 @@
 
 |ON|OFF|
 |:--:|:--:|
-|![ON](https://github.com/murali980/Activity_1/blob/master/simulation/ON.png)|![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/OFF.png)|
+|![When seat is occupied and heat switch is ON (1 1)](https://github.com/murali980/Activity_1/blob/master/simulation/ON.png)|![When seat is not occupied and heat switch is ON (0 1)](https://github.com/murali980/Activity_1/blob/master/simulation/OFF.png)|
+|![When seat is occupied and heat switch is OFF (1 0)](https://github.com/murali980/Activity_1/blob/master/simulation/OFF(1%200).png)|![When seat is not occupied and heat switch is OFF (0 0)](https://github.com/murali980/Activity_1/blob/master/simulation/OFF(0%200).png)|
 
 #### CI and Code Quality
 
