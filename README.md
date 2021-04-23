@@ -6,7 +6,7 @@
 
 |When seat is occupied and heater switch is ON|When seat is occupied and heater switch is OFF|
 |:-------------------------------------------:|:--------------------------------------------:|
-|![ON](https://github.com/murali980/Activity_1/blob/master/simulation/ON.png)|![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/OFF.png)|
+|![When seat is occupied and heater switch is ON](https://github.com/murali980/Activity_1/blob/master/simulation/ON.png)|![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/OFF.png)|
 
 #### CI and Code Quality
 
