@@ -1,4 +1,4 @@
-PROJ_NAME = Blinky
+PROJ_NAME = Blink_led
 
 BUILD_DIR = Build
 
