@@ -1,6 +1,7 @@
 /*
  */
-
+#ifndef __ACTIVITY1_H_
+#define __ACTIVITY_H_
 #include <avr/io.h>
 
 #define F_CPU	20000000
@@ -22,8 +23,7 @@
 #include<util/delay.h>
 #include <avr/interrupt.h>
 
-void InitADC()
-uint16_t ReadADC(uint8_t ch)
+void InitADC();
 
 
 #endif /** __Activity_H_ */

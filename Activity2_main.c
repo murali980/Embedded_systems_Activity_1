@@ -1,5 +1,7 @@
 #include "Activity2.h"
 
+
+
 int main(void)
 {
     InitADC();
