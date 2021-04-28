@@ -1,12 +1,11 @@
   /**
- * @file project_main.c
+ * @file Activity1.c
  * @author Murali ()
  * @brief To blink the led when a person occuipes seat and switch on the heater
  * @date 2021-04-23
  */
-#include "project_config.h"
-#include "user_utils.h"
-#include "blinky.h"
+#include "Activity1.h"
+
 /*header files*/
 
 /**

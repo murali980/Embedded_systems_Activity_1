@@ -1,7 +1,8 @@
-#ifndef __BLINKY_H_
-#define __BLINKY_H_
+#ifndef __ACTIVITY1_H_
+#define __ACTIVITY_H_
+#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 /**
- * @file blinky.h
+ * @file Activity.h
  * @author Murali ()
  * @brief Project to Blink an LED connected to AVR328 MCU GPIO Pin
  * @version 0.1
@@ -25,5 +26,7 @@
  */
 void change_led_state(uint8_t state);
 
+void delay_ms(uint32_t delay_time);
 
-#endif /** __BLINKY_H_ */
+
+#endif /** __Activity_H_ */
