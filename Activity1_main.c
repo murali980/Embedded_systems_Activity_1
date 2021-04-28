@@ -10,7 +10,6 @@
 
 /**
  * @brief Initialize all the Peripherals and pin configurations
- * 
  */
 void peripheral_init(void)
 {
