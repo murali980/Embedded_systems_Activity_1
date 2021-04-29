@@ -9,6 +9,8 @@
 
 /*header files*/
 
+DDRC | = (1<<PC0);  
+PORTC |= (1<<PC0);
 
 /**
  * @brief Main function where the code execution starts
