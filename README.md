@@ -16,7 +16,7 @@
 
 ## Activity_2
 
-(https://github.com/murali980/Embedded_systems_Activity_1/blob/master/simulation/Activity2.png)
+![ON](https://github.com/murali980/Embedded_systems_Activity_1/blob/master/simulation/Activity2.png)
 
 #### CI and Code Quality
 
