@@ -11,6 +11,7 @@ src/Activity2.c
 INC = -I inc
 
 # Find out the OS and configure the variables accordingly
+
 ifdef OS	# All configurations for Windwos OS
    # Delete command 
    RM = del /q
