@@ -2,7 +2,7 @@
  * @file Activity2.c
  * @author Murali ()
  * @brief To set the temperature of an heater in a car using ADC 
- * @date 2021-04-2
+ * @date 2021-04-25
  */
 
 #include "Activity2.h"

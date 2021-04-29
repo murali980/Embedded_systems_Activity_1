@@ -1,5 +1,21 @@
+  /**
+ * @file Activity1.c
+ * @author Murali ()
+ * @brief To blind an led whenever the switch is on
+ * @date 2021-04-2
+ * 
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "Activity1.h"
 
+/**
+ * @brief a function to declare the delay
+ * 
+ * @param delay_time 
+ */
 
 void delay_ms(uint32_t delay_time)
 {

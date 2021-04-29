@@ -1,9 +1,33 @@
+  /**
+ * @file Activity1.c
+ * @author Murali ()
+ * @brief To set the temperature of an heater in a car using ADC 
+ * @date 2021-04-25
+ * 
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "Activity2.h"
+
+/**
+ * @brief a function as been initialised to initialise the ADC
+ * 
+ */
 void InitADC()
 {
     ADMUX=(1<<REFS0);
     ADCSRA=(1<<ADEN) | (7<<ADPS0);
 }
+
+/**
+ * @brief a function has been created to take values from analog pin and output to ADC
+ * @note Reading the values 
+ * 
+ * @param ch 
+ * @return uint16_t 
+ */
 
 uint16_t ReadADC(uint8_t ch)
 {
