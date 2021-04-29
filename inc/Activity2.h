@@ -2,27 +2,30 @@
  */
 #ifndef __ACTIVITY1_H_
 #define __ACTIVITY_H_
-#include <avr/io.h>
-
 #define F_CPU	20000000
+
+/**
+ * @file Activity.h
+ * @author Murali ()
+ * @brief header files that has included interrupts and delay
+ * @version 0.1
+ * @date 2021-04-25
+ * 
+ */
+
+/**
+ * Include files
+ */ 
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
-/*
- * ADCexample.c
- *
- * Created: 4/13/2013 5:22:48 PM
- *  Author: SAM
+
+/**
+ * @brief function to initialise ADC
+ * 
  */
-
-#define F_CPU	20000000
-
-#include <avr/io.h>
-#include<util/delay.h>
-#include <avr/interrupt.h>
-
 void InitADC();
 
 
