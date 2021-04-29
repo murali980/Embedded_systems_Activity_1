@@ -2,7 +2,7 @@
  * @file Activity1.c
  * @author Murali ()
  * @brief To blind an led whenever the switch is on
- * @date 2021-04-2
+ * @date 2021-04-23
  * 
  * 
  * @copyright Copyright (c) 2021
