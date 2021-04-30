@@ -6,7 +6,7 @@
 /**
  * @file Activity.h
  * @author Murali ()
- * @brief header files that has included interrupts and delay
+ * @brief Activity to change the temperature value so that an led will blind high when temperature is high
  * @version 0.1
  * @date 2021-04-25
  * 

@@ -1,8 +1,8 @@
   /**
  * @file Activity_main.c
- * @author Chetan()
- * @brief To blink the led when a person occuipes seat and switch on the heater
- * @date 2021-04-23
+ * @author Murali()
+ * @brief To blink the led and show the temperature on display when a person switch on the heater and set an temperature
+ * @date 2021-04-30
  */
 #include "Activity1.h"
 #include "Activity2.h"
@@ -14,10 +14,11 @@
  * @brief Initialize all the Peripherals and pin configurations
  */
 /**
- * @brief Main function where the code execution starts
+ * @brief All the functions are called in main function 
+ * 
+ * @note changing the state of led and providing the output of pwm
  * @return int Return 0 if the program completes successfully
- * @note  if pin 0 of port C is high then pin 4 of port B is high
- * @note if above condition is not true then pin 4 of port B remain constant
+
  */
 
 

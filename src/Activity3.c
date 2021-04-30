@@ -1,11 +1,26 @@
+ /**
+ * @file Activity1.c
+ * @author Murali ()
+ * @brief To set the temperature of an heater in a car using ADC and show them in PWM using oscilloscope
+ * @date 2021-04-27
+ * 
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "Activity1.h"
 #include "Activity2.h"
 #include "Activity3.h"
+/**
+ * @brief setting the prescaler value and configuring the pin
+ * @note setting the temperature value for PWM
+ * 
+ */
 void timer()
 {
-    TCCR0A|=(1<<COM0A1)|(1<<WGM01)|(1<<WGM00);// CONFIGURING FOR FAST PWM MODE
-    TCCR0B|=(1<<CS01)|(1<<CS00);// SETTING THE PRESCALER TO 64
-    DDRD|=(1<<DDD6);//CONFIGURING PIN D6
+    TCCR0A|=(1<<COM0A1)|(1<<WGM01)|(1<<WGM00);
+    TCCR0B|=(1<<CS01)|(1<<CS00);
+    DDRD|=(1<<DDD6);
 }
 char PWM(uint16_t temp)
 {
