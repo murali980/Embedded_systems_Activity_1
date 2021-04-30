@@ -22,7 +22,7 @@
 
 ## Activity_3
 
-![ON]()
+![ON](https://github.com/murali980/Embedded_systems_Activity_1/blob/master/simulation/Activity3.png)
 
 #### CI and Code Quality
 
