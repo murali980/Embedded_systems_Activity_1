@@ -1,4 +1,4 @@
-PROJ_NAME = Blink_led
+PROJ_NAME = Heatsensor
 
 BUILD_DIR = Build
 
