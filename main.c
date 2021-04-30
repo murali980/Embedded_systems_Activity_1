@@ -51,7 +51,7 @@ int main(void)
     uint16_t temp;
 	peripheral_init();
 	pwm();
-
+    InitUART(103);
 	while (1)
 	{
         change_led_state(PD0);

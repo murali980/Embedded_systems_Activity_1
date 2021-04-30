@@ -25,20 +25,6 @@ void InitUART(uint16_t ubrr_value){
 }
 
 /**
- * @brief Read the data from UART communication
- * 
- * @return char 
- */
-char USARTread()
-{
-    while(!(UCSR0A &(1<<RXC0)))
-    {
-
-    }
-    return UDR0;
-}
-
-/**
  * @brief write the data to UART ports
  * 
  * @param data 

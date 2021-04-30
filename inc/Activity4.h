@@ -17,11 +17,7 @@
  * @param ubrr 
  */
 void InitUART(uint16_t ubrr);
-/**
- * @brief Read data from UART port
- * @return char
- */
-char USARTread();
+
 /**
  * @brief Write data to UART port
  * 
