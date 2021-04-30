@@ -24,9 +24,7 @@ void pwm()
 }
 char PWM(uint16_t temp)
 {
-
     char temperature;
-
     if((temp>=0)&&(temp<=210))
     {
          OCR1A=250;

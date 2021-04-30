@@ -11,17 +11,12 @@
 /*header files*/
 
 /**
- * @brief Initialize all the Peripherals and pin configurations
- */
-/**
  * @brief All the functions are called in main function 
  * 
  * @note changing the state of led and providing the output of pwm
  * @return int Return 0 if the program completes successfully
 
  */
-
-
 
 char temp_data;
 int main(void)

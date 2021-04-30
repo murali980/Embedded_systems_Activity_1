@@ -11,10 +11,7 @@
 #include "Activity1.h"
 #include "Activity2.h"
 
-/**
- * @brief a function as been initialised to initialise the ADC
- * 
- */
+/* Taking a function InitADC */
 void InitADC()
 {
     ADMUX=(1<<REFS0);
