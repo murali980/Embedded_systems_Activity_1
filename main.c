@@ -1,35 +1,22 @@
   /**
- * @file Activity1.c
- * @author Murali ()
+ * @file Activity_main.c
+ * @author Chetan()
  * @brief To blink the led when a person occuipes seat and switch on the heater
  * @date 2021-04-23
  */
 #include "Activity1.h"
+#include "Activity2.h"
+#include "Activity3.h"
 
 /*header files*/
 
 /**
  * @brief Initialize all the Peripherals and pin configurations
  */
-void peripheral_init(void)
-{
-	/* Configure LED Pin */
-	DDRB =DDRB | (1<<4);  
-    DDRC =DDRC & ~(1<<0);
-}
 
-void change_led_state(uint8_t state)
-{
-	 
-        if(PINC & (1<<0))  
-        {
-            PORTB= PORTB | (1<<4);
-        }
-        else  
-        {
-            PORTB= PORTB & ~(1<<4);  
-        }
-}
+
+
+
 
 /**
  * @brief Main function where the code execution starts
@@ -38,15 +25,27 @@ void change_led_state(uint8_t state)
  * @note if above condition is not true then pin 4 of port B remain constant
  */
 
+
+
+char temp_data;
 int main(void)
 {
 	/* Initialize Peripherals */
+    InitADC();
+    timer();
+    uint16_t temp;
 	peripheral_init();
 
 	while (1)
 	{
         change_led_state(0x01);
 		delay_ms(1000);
+       
+        temp=ReadADC(0);
+        temp_data=PWM(temp);
+        OCR1A=0;
+         
+        _delay_ms(200);
 	}
 	return 0;
 }

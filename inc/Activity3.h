@@ -1,9 +1,9 @@
-#ifndef __ACTIVITY1_H_
-#define __ACTIVITY_H_
-#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
+#ifndef __ACTIVITY3_H_
+#define __ACTIVITY3_H_
+
 /**
  * @file Activity.h
- * @author Murali ()
+ * @author Chetan ()
  * @brief Project to Blink an LED connected to AVR328 MCU GPIO Pin
  * @version 0.1
  * @date 2021-04-23
@@ -25,10 +25,9 @@
  * 
  * @param state Pin level to which the LED Pin should be set
  */
-void change_led_state(uint8_t state);
+void timer();
 
-void delay_ms(uint32_t delay_time);
+char PWM(uint16_t temp);
 
-void peripheral_init(void);
 
-#endif /** __Activity_H_ */
+#endif /** __ACTIVITY3_H_ */

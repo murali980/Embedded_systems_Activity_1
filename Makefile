@@ -3,9 +3,11 @@ PROJ_NAME = Blink_led
 BUILD_DIR = Build
 
 # All Source code files
-SRC = Activity1_main.c\
-src\Activity1.c\
-src/Activity2.c
+SRC = src/Activity1.c\
+src/Activity2.c\
+src/Activity3.c\
+src/Activity4.c\
+main.c\
 
 # All header file paths
 INC = -I inc
