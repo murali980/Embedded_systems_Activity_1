@@ -3,7 +3,7 @@
 
 ## Activity_1
 
-![OFF](https://github.com/murali980/Activity_1/blob/master/simulation/ON(1%201).png)|
+![OFF](https://github.com/murali980/Embedded_systems_Activity_1/blob/master/simulation/Activity1.png)|
 
 
 # Setting the temperature for a heater in a car
