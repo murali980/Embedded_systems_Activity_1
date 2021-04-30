@@ -25,7 +25,7 @@
  * 
  * @param state Pin level to which the LED Pin should be set
  */
-void timer();
+void pwm();
 
 char PWM(uint16_t temp);
 

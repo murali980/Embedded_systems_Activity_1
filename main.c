@@ -28,7 +28,7 @@ int main(void)
 {
 	/* Initialize Peripherals */
     InitADC();
-    timer();
+    pwm();
     uint16_t temp;
 	peripheral_init();
 

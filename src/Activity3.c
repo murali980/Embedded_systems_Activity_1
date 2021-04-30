@@ -16,10 +16,10 @@
  * @note setting the temperature value for PWM
  * 
  */
-void timer()
+void pwm()
 {
-    TCCR0A|=(1<<COM0A1)|(1<<WGM01)|(1<<WGM00);
-    TCCR0B|=(1<<CS01)|(1<<CS00);
+    TCCR1A|=(1<<COM0A1)|(1<<WGM01)|(1<<WGM00);
+    TCCR1B|=(1<<CS01)|(1<<CS00);
     DDRD|=(1<<DDD6);
 }
 char PWM(uint16_t temp)
@@ -29,25 +29,25 @@ char PWM(uint16_t temp)
 
     if((temp>=0)&&(temp<=210))
     {
-         OCR0A=51;
+         OCR1A=250;
          temperature=20;
         _delay_ms(1000);
     }
-    else if((temp>=210)&&(temp<=510))
+    else if((temp>=211)&&(temp<=510))
     {
-         OCR0A=102;
+         OCR1A=410;
          temperature=25;
         _delay_ms(1000);
     }
-    else if((temp>=510)&&(temp<=710))
+    else if((temp>=511)&&(temp<=710))
     {
-         OCR0A=179;
+         OCR1A=716;
          temperature=29;
         _delay_ms(1000);
     }
-    else if((temp>=710)&&(temp<=1024))
+    else if((temp>=711)&&(temp<=1024))
     {
-         OCR0A=243;
+         OCR1A=972;
          temperature=33;
         _delay_ms(1000);
     }
