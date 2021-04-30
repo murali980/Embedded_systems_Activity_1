@@ -30,7 +30,7 @@ int main(void)
 	while (1)
 	{
         change_led_state(0x01);
-		delay_ms(1000);
+		_delay_ms(1000);
        
         temp=ReadADC(0);
         temp_data=PWM(temp);

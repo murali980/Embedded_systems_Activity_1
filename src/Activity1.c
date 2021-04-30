@@ -29,18 +29,18 @@ void delay_ms(uint32_t delay_time)
 void change_led_state(uint8_t state)
 {
 	 
-        if(PINC & (1<<0))  
-        {
-            PORTB= PORTB | (1<<4);
-        }
-        else  
-        {
-            PORTB= PORTB & ~(1<<4);  
-        }
+    if(PIND & (1<<0))  
+    {
+         PORTD= PORTD | (1<<4);
+    }
+    else  
+    {
+        PORTD= PORTD & ~(1<<4);  
+    }
 }
 void peripheral_init(void)
 {
 	/* Configure LED Pin */
-	DDRB =DDRB | (1<<4);  
-    DDRC =DDRC & ~(1<<0);
+	DDRD =DDRD | (1<<4);  
+    DDRD =DDRD & ~(1<<0);
 }
