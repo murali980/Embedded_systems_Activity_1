@@ -59,7 +59,7 @@ int main(void)
          temp=ReadADC(0);
         _delay_ms(200);
         temp_data = PWM(temp);
-        UARTWritechar(temp_data);
+        UARTwrite(temp_data);
         OCR0A=0;
         _delay_ms(200);
 	}

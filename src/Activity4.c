@@ -29,7 +29,7 @@ void InitUART(uint16_t ubrr_value){
  * 
  * @return char 
  */
-char USARTReadchar()
+char USARTread()
 {
     while(!(UCSR0A &(1<<RXC0)))
     {
@@ -43,7 +43,7 @@ char USARTReadchar()
  * 
  * @param data 
  */
-void UARTWritechar(char data)
+void UARTwrite(char data)
 {
     while(!(UCSR0A & (1<<UDRE0)))
     {

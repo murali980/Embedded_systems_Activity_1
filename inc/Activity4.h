@@ -21,12 +21,12 @@ void InitUART(uint16_t ubrr);
  * @brief Read data from UART port
  * @return char
  */
-char USARTReadchar();
+char USARTread();
 /**
  * @brief Write data to UART port
  * 
  * @param data 
  */
-void UARTWritechar(char data);
+void UARTwrite(char data);
 
 #endif
