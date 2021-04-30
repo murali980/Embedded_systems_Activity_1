@@ -2,7 +2,7 @@
 #define __ACTIVITY1_H_
 #define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 /**
- * @file Activity.h
+ * @file Activity1.h
  * @author Murali ()
  * @brief Project to Blink an LED connected to AVR328 MCU GPIO Pin
  * @version 0.1
@@ -31,4 +31,4 @@ void delay_ms(uint32_t delay_time);
 
 void peripheral_init(void);
 
-#endif /** __Activity_H_ */
+#endif /** __Activity1_H_ */

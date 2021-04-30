@@ -4,7 +4,7 @@
 #define __ACTIVITY2_H_
 
 /**
- * @file Activity.h
+ * @file Activity2.h
  * @author Murali ()
  * @brief Activity to change the temperature value so that an led will blind high when temperature is high
  * @version 0.1

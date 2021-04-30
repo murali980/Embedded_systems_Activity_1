@@ -1,5 +1,5 @@
   /**
- * @file Activity_main.c
+ * @file main.c
  * @author Murali()
  * @brief To blink the led and show the temperature on display when a person switch on the heater and set an temperature
  * @date 2021-04-30
