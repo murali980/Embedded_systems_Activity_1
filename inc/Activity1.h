@@ -1,5 +1,5 @@
 #ifndef __ACTIVITY1_H_
-#define __ACTIVITY_H_
+#define __ACTIVITY1_H_
 #define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 /**
  * @file Activity.h

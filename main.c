@@ -13,11 +13,6 @@
 /**
  * @brief Initialize all the Peripherals and pin configurations
  */
-
-
-
-
-
 /**
  * @brief Main function where the code execution starts
  * @return int Return 0 if the program completes successfully

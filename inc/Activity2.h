@@ -1,8 +1,7 @@
 /*
  */
-#ifndef __ACTIVITY1_H_
-#define __ACTIVITY_H_
-#define F_CPU	20000000
+#ifndef __ACTIVITY2_H_
+#define __ACTIVITY2_H_
 
 /**
  * @file Activity.h
@@ -30,4 +29,4 @@ void InitADC();
 
 uint16_t ReadADC(uint8_t ch);
 
-#endif /** __Activity_H_ */
+#endif /** __Activity2_H_ */
