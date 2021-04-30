@@ -18,9 +18,9 @@
  */
 void pwm()
 {
-    TCCR1A|=(1<<COM0A1)|(1<<WGM01)|(1<<WGM00);
-    TCCR1B|=(1<<CS01)|(1<<CS00);
-    DDRD|=(1<<DDD6);
+    TCCR1A|=(1<<COM1A1)|(1<<WGM10)|(1<<WGM11);// CONFIGURING FOR FAST PWM MODE
+    TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10);// SETTING THE PRESCALER TO 64
+    DDRB|=(1<<PB1);//CONFIGURING PIN B1
 }
 char PWM(uint16_t temp)
 {
